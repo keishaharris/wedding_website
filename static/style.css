@@ -65,15 +65,11 @@ footer{
 }
 .header .logo a {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 10px;
+    font-size: 16px;
     font-weight:  bold;
     font-family: 'Great Vibes', cursive;
     letter-spacing: 1px;
-    text-transform: uppercase;
     text-shadow:  0px 0px 4px #50504F;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 50%;
-    padding:  8px 8px;
 }
 .header .logo {
 
@@ -170,7 +166,7 @@ display: block;
 h1
 {
     font-family: 'Hammersmith One', sans-serif;
-    font-size:  50px;
+    font-size:  30px;
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 0px;
@@ -179,12 +175,12 @@ h1
 h2{
     font-family: 'Cinzel', serif;
     margin: 0;
-    font-size: 50px;
+    font-size: 30px;
     color: #ffffff;
 }
 
 h3{
-    font-size: 18px;
+    font-size: 11px;
     color: #FFFFFF;
     font-weight: normal;
     letter-spacing: 1px;
@@ -193,8 +189,22 @@ h3{
 
 span{
     font-family: 'Cinzel';
-    font-size: 15px;
+    font-size: 10px;
     color: #EBE89B;
+}
+.sticker {
+       flex: 0 0 100%;
+    max-width: 700px;
+    text-align: center;
+    background: rgba(255,255,255,0.5);
+   display: block;
+   margin-top: 50px;
+   margin-left: -50px;
+   font-family: 'Great Vibes', cursive;
+   font-size: 40px;
+   letter-spacing: 1px;
+   color: rgba(158, 147, 124, 1.0);
+   box-shadow: 0.5rem 7px #FFF;
 }
 
 .our-story{
@@ -202,15 +212,19 @@ span{
 }
 
 .our-story .container{
-    background-color: rgba(221,213,125,0.3);
+    background-color: rgba(240,235,225,1.0);
+    /*rgba(221,213,125,0.3);*/
     display: flex;
-    max-width: 1500px;
+    max-width: 1800px;
     justify-content: center;
+    border-left: 50px rgba(66, 138, 169, 0.5) solid;
+
 }
 
 .our-story .row {
    min-height: 100vh;
    align-items: center;
+   max-width: 1800px;
 
 }
 
@@ -228,6 +242,7 @@ span{
     text-align: center;
     display: inline-block;
 }
+
 .our-story .wrap-content{
     display:  flex;
     justify-content: center;
@@ -236,23 +251,27 @@ span{
 }
 
 .our-story .left-content{
-    padding: 7px;
-    margin:  10px;
-    max-height: 315px;
+    padding: 17px;
+    max-height: 355px;
+    border:  1px solid rgba(66, 138, 169, 0.5);
+    border-radius: 0;
+    /*
     background: rgba(162, 139, 112 , 0.5);
     border-radius: 2px;
     box-shadow: 0.5rem 7px #FFF;
+    */
     display: flex;
-    margin-top: 50px;
+    margin-top: 45px;
 }
 .our-story .right-content{
 
     padding: 7px 30px;
     margin:  10px 30px;
-    background: rgba(162, 139, 112 , 0.3);
-    border-radius: 2px;
+    max-width: 700px;
+    border:  1px solid rgba(184, 184, 183, 0.3);
     box-shadow: 0.5rem 7px #FFF;
     display: inline-block;
+    border-radius: 0;
 }
 
 .our-story .right-content h4 {
@@ -261,7 +280,8 @@ span{
     font-size: 25px;
     font-weight: bold;
     text-align: right;
-    color: rgba(255, 255, 255);
+    color: rgba(158, 147, 124, 1.0);
+    background: rgba(255,255,255,0.5);
 }
 
 p{
@@ -271,6 +291,7 @@ p{
     font-size:  12px;
     font-weight: 400;
     text-align: justify;
+    margin-top: 10px;
 }
 
 input[type=text] {
@@ -317,5 +338,6 @@ input[type=text] {
     text-align: center;
     display: inline-block;
 }
+
 
 
